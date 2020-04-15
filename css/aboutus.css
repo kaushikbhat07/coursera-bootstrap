@@ -1,0 +1,17 @@
+.jumbotron-purple {
+	background-color: #9575cd;
+}
+.jumbotron-purple h1, .jumbotron-purple p {
+	color: #fff;
+}
+.row-mb-100 {
+	margin-bottom: 100px;
+}
+.footer {
+	background-color: #d1c4e9;
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+h1, h2, h3, h4, h5 {
+	font-weight: 600;
+} 

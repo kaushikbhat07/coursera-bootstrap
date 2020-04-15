@@ -6,30 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ristorante Con Fusion: About Us</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/aboutus.css">
-    <style>
-        .jumbotron-purple {
-            background-color: #9575cd;
-        }
-        .jumbotron-purple h1, .jumbotron-purple p {
-            color: #fff;
-        }
-        .row-mb-100 {
-            margin-bottom: 100px;
-        }
-        .footer {
-            background-color: #d1c4e9;
-            padding-top: 40px;
-            padding-bottom: 30px;
-        }
-        h1, h2, h3, h4, h5 {
-            font-weight: 600;
-        }        
+    <style>       
     </style>
 </head>
 
 <body>
-
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">Ristorante Con Fusion</a>
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="./aboutus.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <header class="jumbotron jumbotron-purple">
         <div class="container">
             <div class="row row-header">
@@ -45,6 +44,10 @@
 
     <div class="container">
         <div class="row row-mb-100">
+            <ol class="col-12 breadcrumb">
+                <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+                <li class="breadcrumb-item active">About Us</li>
+            </ol>            
             <div class="col-12">
                <h3>About Us</h3>
                <hr>
