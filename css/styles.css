@@ -1,3 +1,11 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 600;
+}
+
 .row-header {
     margin: 0px auto;
     padding: 0px auto;
@@ -6,8 +14,13 @@
 .row-content {
     margin: 0px auto;
     padding: 50px 0px 50px 0px;
-    border-bottom: 1px ridge;
-    min-height: 400px;
+    border-bottom: 1px #D1C4E9;
+}
+
+@media only screen and (min-width: 576px) {
+    .row-content {
+        min-height: 400px;
+    }
 }
 
 .footer {
@@ -23,4 +36,17 @@ body {
 
 .navbar-dark {
     background-color: #512DA8;
+}
+
+.jumbotron-dark {
+    background-color: #cfd7df !important;
+}
+
+.btn-reserve {
+    padding: 10px 30px 10px 30px;
+}
+
+#reserve .card-header {
+    color: #fff;
+    background-color: #fdc02f;
 }
