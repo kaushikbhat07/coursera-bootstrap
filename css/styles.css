@@ -1,86 +1,79 @@
+.modal .modal-header {
+  background-color: #5133a5; }
+  .modal .modal-header .close {
+    color: floralwhite; }
+  .modal .modal-header .modal-title {
+    color: #fff; }
+
+.modal .modal-body {
+  background-color: #d1c5e8; }
+
 h1,
 h2,
 h3,
 h4,
 h5 {
-    font-weight: 600;
-}
+  font-weight: 600; }
 
 .row-header {
-    margin: 0px auto;
-    padding: 0px auto;
-}
+  margin: 0px auto;
+  padding: 0px auto; }
 
 .row-content {
-    margin: 0px auto;
-    padding: 50px 0px 50px 0px;
-    border-bottom: 1px #D1C4E9;
-}
+  margin: 0px auto;
+  padding: 50px 0px 50px 0px;
+  border-bottom: 1px #D1C4E9; }
 
 @media only screen and (min-width: 576px) {
-    .row-content {
-        min-height: 400px;
-    }
-}
+  .row-content {
+    min-height: 400px; } }
 
 .footer {
-    background-color: #D1C4E9;
-    margin: 0px auto;
-    padding: 20px 0px 20px 0px;
-}
+  background-color: #D1C4E9;
+  margin: 0px auto;
+  padding: 20px 0px 20px 0px; }
 
 body {
-    padding: 50px 0px 0px 0px;
-    z-index: 0;
-}
+  padding: 50px 0px 0px 0px;
+  z-index: 0; }
 
 .navbar-dark {
-    background-color: #512DA8;
-}
+  background-color: #512DA8; }
 
 .jumbotron-dark {
-    background-color: #cfd7df !important;
-}
+  background-color: #cfd7df !important; }
 
 .btn-reserve {
-    padding: 10px 30px 10px 30px;
-}
+  padding: 10px 30px 10px 30px; }
 
 #reserve .card-header {
-    color: #fff;
-    background-color: #fdc02f;
-}
+  color: #fff;
+  background-color: #fdc02f; }
 
 .social-icons i {
-    background-color: transparent;
-    color: #000;
-    padding: 0 8px;
-}
+  background-color: transparent;
+  color: #000;
+  padding: 0 8px; }
 
 .carousel {
-    background: #512DA8;
-}
+  background: #512DA8; }
 
 .carousel-item {
-    width: 100%;
-    height: 300px;
-}
+  width: 100%;
+  height: 300px; }
 
 .carousel-item img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    /* width: 100%; */
-    min-height: 300px;
-}
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* width: 100%; */
+  min-height: 300px; }
 
 #reserveTableModal .btn-group-toggle {
-    padding-right: 22%;
-}
+  padding-right: 22%; }
 
 #carouselButton {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    z-index: 999;
-}
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 999; }
