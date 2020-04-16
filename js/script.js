@@ -15,10 +15,18 @@ $(function () {
             $('#mycarousel').carousel('pause');
             $('#carouselButton').children('span').removeClass('fa-pause');
             $('#carouselButton').children('span').addClass('fa-play');
-        } else  {
+        } else {
             $('#mycarousel').carousel('cycle');
             $('#carouselButton').children('span').removeClass('fa-play');
             $('#carouselButton').children('span').addClass('fa-pause');
         }
     });
+
+    // Modal 
+    $('#loginTrigger').click(function () {
+        $('#loginModal').modal('show');
+    })
+    $('#reserveTblTrigger').click(function () {
+        $('#reserveTableModal').modal('show');
+    })
 });
